@@ -1,0 +1,37 @@
+.trending {
+    background-color: #040714;
+    padding-bottom: 140.25px;
+}
+
+.trending__nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 28.18px;
+    margin-bottom: 24px;
+
+
+}
+
+.trending__nav-link {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #f9f9f9;
+
+}
+
+.trending__nav-link0::after {
+    content: "";
+    display: block;
+    background-color: #f9f9f9;
+    width: 101px;
+    height: 5px;
+    margin-top: 12px;
+}
+.trending__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+    gap: 24px;
+}
